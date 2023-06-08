@@ -1,0 +1,42 @@
+.contentWrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 5rem;
+}
+.contentInner {
+  display: flex;
+  justify-content: space-between;
+  gap: 18rem;
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 2.2rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.itemWrap {
+  width: 50%;
+}
+.item {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+  padding: 20px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 10px;
+}
